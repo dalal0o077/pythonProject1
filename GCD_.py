@@ -23,3 +23,4 @@ if message1 < 0 or message2 < 0:
 
 # call the function, use message1 and message2 as the argument to display the results of the numbers picked by the user
 (print(finding_greatest_common_divisor(message1, message2)))
+#hello
