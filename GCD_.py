@@ -13,8 +13,9 @@ def finding_greatest_common_divisor(a, b):
     return a
 
 
-# display a message to get the application to accept input numbers
+# displays a message to get the user to input number
 message1 = int(input("Enter a number:"))
+# displays a message to get the user to input a second number
 message2 = int(input("Enter a second number:"))
 
 # displaying an error message if the user inputs a negative number
@@ -23,4 +24,4 @@ if message1 < 0 or message2 < 0:
 
 # call the function, use message1 and message2 as the argument to display the results of the numbers picked by the user
 (print(finding_greatest_common_divisor(message1, message2)))
-#hello
+
